@@ -50,6 +50,7 @@ const Portfolio = () => {
       <aside className="top-0 left-0 w-full bg-[#0a1324] px-4 py-12 lg:fixed lg:h-screen lg:w-[40%] lg:max-w-3xl lg:pl-32">
         <div className="flex h-full flex-col justify-between">
           <div>
+            
             <h1 className="text-4xl font-bold tracking-tight text-white">
               Olatunbosun Olabisi
             </h1>

@@ -2,7 +2,7 @@ export const experience = [
   {
     id: 1,
     company: "Product Studio HQ",
-    position: "Product Engineer",
+    position: "Product Engineer, Contract",
     date: "Oct 2024 - Dec 2024",
     location: "Remote, Nigeria",
     description: ["A Loyalty as a service product"],
