@@ -17,7 +17,7 @@ const ExperienceCard = ({
   link,
 }: ExperienceCardProps) => {
   const CardContent = () => (
-    <div className="group grid grid-flow-dense grid-cols-3 space-y-4 rounded-lg p-8 transition-all duration-300 hover:bg-[#0f2037] hover:shadow">
+    <div className="group lg:grid grid-flow-dense grid-cols-3 space-y-4 rounded-lg lg:p-8 transition-all duration-300 hover:bg-[#0f2037] hover:shadow mb-12 lg:mb-0">
       <div className="col-span-1 text-sm text-gray-500">{date}</div>
       <div className="col-span-2 space-y-4">
         <h3 className="flex items-center text-xl font-semibold text-white group-hover:text-[#57d9cb]">

@@ -45,20 +45,20 @@ const Portfolio = () => {
   };
 
   return (
-    <div className="flex min-h-screen bg-[#0a1324] px-4 py-12 text-[#94a3b8] md:px-6 lg:px-8 lg:py-24 mx-auto">
+    <div className="block min-h-screen bg-[#0a1324] px-4 py-1 text-[#94a3b8] md:px-6 lg:mx-auto lg:flex lg:px-8 lg:py-24">
       {/* Sidebar */}
-      <aside className="lg:fixed top-0 left-0 h-screen w-[40%] max-w-3xl border bg-[#0a1324] py-12 lg:pl-32">
+      <aside className="top-0 left-0 w-full bg-[#0a1324] px-4 py-12 lg:fixed lg:h-screen lg:w-[40%] lg:max-w-3xl lg:pl-32">
         <div className="flex h-full flex-col justify-between">
           <div>
             <h1 className="text-4xl font-bold tracking-tight text-white">
               Olatunbosun Olabisi
             </h1>
-            <p className="mt-2 text-xl">Backend Engineer</p>
-            <p className="mt-4 max-w-64">
+            <p className="mt-2 text-2xl text-gray-300">Backend Engineer</p>
+            <p className="mt-4 max-w-64 text-lg">
               I'm a backend engineer with a passion for building scalable and
               efficient systems.
             </p>
-            <nav className="mt-6 space-y-1">
+            <nav className="mt-24 hidden space-y-1 lg:block">
               {["ABOUT", "EXPERIENCE", "PROJECTS"].map((item) => (
                 <button
                   key={item}
@@ -79,7 +79,7 @@ const Portfolio = () => {
               ))}
             </nav>
           </div>
-          <div className="flex gap-4">
+          <div className="mt-4 flex gap-4">
             <a
               href="https://github.com/bhosun"
               className="rounded-full p-2 hover:bg-gray-800"
@@ -99,9 +99,10 @@ const Portfolio = () => {
       </aside>
 
       {/* Main Content */}
-      <main className="ml-[50%] flex-1 p-4">
+      <main className="flex-1 p-4 lg:ml-[50%]">
         <section ref={sectionRefs.about} className="">
           <div className="space-y-6">
+            <h2 className="text-lg font-bold text-gray-300 lg:hidden">About</h2>
             <p className="text-lg leading-relaxed">
               Hi, I am a software engineer with over three years experience in
               the proptech and insurtech space, where I've developed resilient
@@ -116,6 +117,9 @@ const Portfolio = () => {
         </section>
 
         <section ref={sectionRefs.experience} className="mt-24">
+          <h2 className="text-lg font-bold text-gray-300 lg:hidden mb-4 ">
+            Experience
+          </h2>
           <div className="space-y-12">
             {experience.map((experience) => (
               <ExperienceCard
@@ -132,6 +136,9 @@ const Portfolio = () => {
         </section>
 
         <section ref={sectionRefs.projects} className="mt-24">
+          <h2 className="text-lg font-bold text-gray-300 lg:hidden mb-4">
+            Projects
+          </h2>
           <div className="space-y-12">
             {projects.map((project) => (
               <ProjectCard

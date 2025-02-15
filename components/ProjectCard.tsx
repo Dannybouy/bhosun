@@ -5,7 +5,7 @@ interface ProjectCardProps {
 }
 const ProjectCard = ({ name, description, technologies }: ProjectCardProps) => {
   return (
-    <div className="group space-y-4 rounded-lg p-8 transition-all duration-300 hover:bg-[#0f2037] hover:shadow">
+    <div className="group space-y-4 rounded-lg lg:p-8 transition-all duration-300 hover:bg-[#0f2037] hover:shadow">
       <h3 className="flex items-center text-xl font-semibold text-white group-hover:text-[#57d9cb]">
         {name}
         <svg
