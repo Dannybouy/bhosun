@@ -1,15 +1,14 @@
 export const experience = [
   {
     id: 1,
-    company: "Product Studio",
+    company: "Product Studio HQ",
     position: "Product Engineer",
     date: "Oct 2024 - Dec 2024",
     location: "Remote, Nigeria",
-    description: [
-      "Transformed a Loyalty-as-a-Service application into robust APIs, enabling companies to reward customer loyalty and drive growth. Designed a scalable rule engine for seamless reward distribution and implemented analytics to optimize performance.",
-    ],
+    description: ["A Loyalty as a service product"],
     technologies: ["Node.js", "Typescript"],
     link: "https://bvndle.com/",
+    companyLogo: "/src/assets/bvundle.png",
   },
   {
     id: 2,
@@ -18,10 +17,11 @@ export const experience = [
     date: "Aug 2024",
     location: "Remote, Nigeria",
     description: [
-      "Contributed as a backend engineer on Bible Game, an interactive Bible knowledge mobile app with 10,000+ users across 154 countries. Developed Fantasy League features, global and country-specific leaderboards, and analytics to enhance engagement and decision-making.",
+      "Bible Game: An interactive bible knowledge app on android and ios with 10,000+ users across 154 countries.",
     ],
     technologies: ["Java", "Spring Boot", "Kotlin"],
     link: "https://linktr.ee/biblegame_",
+    companyLogo: "/src/assets/biblegame.png",
   },
   {
     id: 3,
@@ -30,10 +30,11 @@ export const experience = [
     date: "Apr 2023 - Sept 2024",
     location: "Remote, Nigeria",
     description: [
-      "Collaborated with a cross-functional team to architect the MVP of a NAICOM-licensed web aggregator for top Nigerian insurance companies. Designed a scalable backend, database models, and APIs while developing algorithms for policy aggregation, real-time pricing, and seamless insurer data mapping. Implemented a claims settlement system, a robust file validation service, and analytics for admins and stakeholders to enhance decision-making and transparency.",
+      "A web aggregator for insurance policies from top insurance providers in Nigeria.",
     ],
     technologies: ["Javascript", "Node.js", "MongoDB"],
     link: "https://www.vendpolicies.com/",
+    companyLogo: "/src/assets/vendpolicy.png",
   },
 
   {
@@ -43,10 +44,11 @@ export const experience = [
     date: "Jul 2022 - Aug 2023",
     location: "Lagos, Nigeria",
     description: [
-      "Designed and implemented an admin user management system with super admin-initiated authentication, email notifications, and RBAC for security. Built a webhook monitoring system to flag triggers, log responses, and optimize retries. Developed a Slack notification system for critical alerts, enhancing workflow and productivity.",
+      "Spleet is a rental management platform for landlords and tenants in Africa, offering flexible payments, tenant verification, and automated rent collection.",
     ],
     technologies: ["Nest.js", "Typescript", "Redis", "MySQL"],
     link: "https://spleet.africa/",
+    companyLogo: "/src/assets/spleetafrica.png",
   },
   {
     id: 5,
@@ -55,10 +57,11 @@ export const experience = [
     date: "Dec 2019 - Aug 2020",
     location: "Lagos, Nigeria",
     description: [
-      "Collaborated with the team to build the proptech's monolithic backend, developed core infrastructure with Node.js and MongoDB. Designed database schemas, deployed on MongoDB Atlas, and maintained the app on Heroku. Researched cost-effective solutions and integrated third-party APIs while documenting the api.",
+      "Keble allows you to earn returns in USD by investing in fractional shares of properties from the world’s biggest real estate markets.",
     ],
     technologies: ["Javascript", "Node.js", "MongoDB"],
     link: "https://www.keble.co/",
+    companyLogo: "",
   },
   {
     id: 6,
@@ -67,8 +70,7 @@ export const experience = [
     date: "Jan 2019 - Mar 2019",
     location: "Lagos, Nigeria",
     description: [
-      "Developed an e-commerce app connecting customers to food vendors for ordering.",
-      "Built API endpoints with Node.js (Express), database models with PostgreSQL (Sequelize), wrote unit tests with Mocha and Chai, and implemented CI with TravisCI ",
+      "An e-commerce app connecting customers to food vendors for ordering in the ALCwithForloop programme.",
     ],
     technologies: [
       "Javascript",
@@ -80,6 +82,7 @@ export const experience = [
       "TravisCl",
     ],
     link: "https://www.andela.com/",
+    companyLogo: "",
   },
 ];
 

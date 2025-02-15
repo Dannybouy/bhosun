@@ -140,6 +140,7 @@ const Portfolio = () => {
                 description={experience.description}
                 technologies={experience.technologies}
                 link={experience.link}
+                companyLogo={experience.companyLogo}
               />
             ))}
           </div>
