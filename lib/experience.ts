@@ -8,7 +8,7 @@ export const experience = [
     description: ["A Loyalty as a service product"],
     technologies: ["Node.js", "Typescript"],
     link: "https://bvndle.com/",
-    companyLogo: "/src/assets/bvundle.png",
+    companyLogo: "/bvundle.png",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const experience = [
     ],
     technologies: ["Java", "Spring Boot", "Kotlin"],
     link: "https://linktr.ee/biblegame_",
-    companyLogo: "/src/assets/biblegame.png",
+    companyLogo: "/biblegame.png",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ export const experience = [
     ],
     technologies: ["Javascript", "Node.js", "MongoDB"],
     link: "https://www.vendpolicies.com/",
-    companyLogo: "/src/assets/vendpolicy.png",
+    companyLogo: "/vendpolicy.png",
   },
 
   {
@@ -48,7 +48,7 @@ export const experience = [
     ],
     technologies: ["Nest.js", "Typescript", "Redis", "MySQL"],
     link: "https://spleet.africa/",
-    companyLogo: "/src/assets/spleetafrica.png",
+    companyLogo: "/spleetafrica.png",
   },
   {
     id: 5,
