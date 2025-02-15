@@ -1,5 +1,5 @@
 import { Github, Linkedin } from "lucide-react";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { experience, projects } from "../lib/experience";
 import { cn } from "../lib/utils";
 import ExperienceCard from "./ExperienceCard";
