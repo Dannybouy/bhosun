@@ -58,6 +58,16 @@ const Portfolio = () => {
               I'm a backend engineer with a passion for building scalable and
               efficient systems.
             </p>
+            <a
+              href="https://drive.google.com/file/d/1KJYqHA-bQaSdYtxt_Vee6MEYhUB_QCir/view"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="mt-4 rounded-md border-2 border-[#122c3f] bg-[#1a293f] px-4 py-2 font-medium text-white transition-all duration-300 hover:bg-[#2a3d58]">
+                Download CV
+              </button>
+            </a>
             <nav className="mt-24 hidden space-y-1 lg:block">
               {["ABOUT", "EXPERIENCE", "PROJECTS"].map((item) => (
                 <button
@@ -117,7 +127,7 @@ const Portfolio = () => {
         </section>
 
         <section ref={sectionRefs.experience} className="mt-24">
-          <h2 className="text-lg font-bold text-gray-300 lg:hidden mb-4 ">
+          <h2 className="mb-4 text-lg font-bold text-gray-300 lg:hidden">
             Experience
           </h2>
           <div className="space-y-12">
@@ -136,7 +146,7 @@ const Portfolio = () => {
         </section>
 
         <section ref={sectionRefs.projects} className="mt-24">
-          <h2 className="text-lg font-bold text-gray-300 lg:hidden mb-4">
+          <h2 className="mb-4 text-lg font-bold text-gray-300 lg:hidden">
             Projects
           </h2>
           <div className="space-y-12">
